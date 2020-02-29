@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* css untuk halaman home*/
+.container-home {
+    background-image: url(../img/ImageBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.isi-home {
+    background-color: black;
+    height: 720px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.logo {
+    margin-top: 44px;
+    z-index: 10;
+}
+
+.text-home {
+    color: #fff;
+    font-family: Pacifico;
+    font-size: 48px;
+}
+
+.text-home span {
+    color: #FCB371;
+}
+
+.text-subHome {
+    color: #fff;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-weight: 16px;
+    margin-bottom: 60px;
+}
+
+.btn-about {
+    border: 2px solid #fcb371;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #fcb371;
+    font-family: pacifico;
+    font-size: 12px;
+    line-height: 21px;
+    margin-right: 13px;
+    text-decoration: none;
+    padding: 12px 53px 13px 53px;
+}
+
+.btn-reservation {
+    color: white;
+    border: 2px solid #FCB371;
+    border-radius: 6px;
+    background-color: #fcb371;
+    font-family: pacifico;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 12px 53px 13px 53px;
+
+}
+
+/* css untuk halaman about */
+
+.container-about {
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.isi-about {
+    background-color: black;
+    opacity: 0.8;
+    height: 720px;
+}
+
+.btn-back {
+    margin-top: 80px;
+    margin-left: 56px;
+}
+
+.isi-halaman-about {
+    text-align: center;
+}
+
+.judul-about {
+    color: #FCB371;
+    font-family: Pacifico;
+    font-size: 48px;
+    margin-top: 91px;
+    margin-bottom: 46px;
+    line-height: 84px;
+}
+
+.isi-sub-halaman-about {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+/* CSS untuk halaman reservation */
+
+.container-reservation {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.isi-reservation {
+    background-color: black;
+    height: 770px;
+    opacity: 0.8;
+}
+
+.isi-sub-halaman-reservation {
+    text-align: center;
+}
+
+.judul-reservation {
+    color: #FCB371;
+    font-family: Pacifico;
+    font-size: 48px;
+    margin-top: -43px;
+    margin-bottom: 67px;
+    line-height: 84px;
+}
+
+.form-container {
+    margin-bottom: 16px;
+}
+
+.form-reservation {
+    border-radius: 8px;
+    height: 20px;
+    width: 382px;
+    font-family: open sans;
+    padding: 16px;
+}
+
+.form-number {
+    width: 150px;
+}
+
+.form-select-reservation {
+    border-radius: 8px;
+    font-family: open sans;
+    padding: 18px;
+    margin-left: 5px;
+    width: 226px;
+}
+
+.form-text-area {
+    border-radius: 8px;
+    font-family: open sans;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.btn-page-reservation {
+    background-color: #FCB371;
+    border: 2px solid #FCB371;
+    border-radius: 8px;
+    color: #fff;
+    font-family: pacifico;
+    font-size: 12px;
+    margin-top: 32px;
+    padding: 16px;
+    width: 430px;
+}
